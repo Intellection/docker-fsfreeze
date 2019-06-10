@@ -11,6 +11,6 @@ Supported filesystems:
 * JFS
 * XFS
 
-Note: `fsfreeze` is unncessary for device-mapper devices. The device-mapper (and LVM) automatically freezes filesystem on the device when a snapshot creation is requested.
+Note: `fsfreeze` is unnecessary for device-mapper devices. The device-mapper (and LVM) automatically freezes filesystem on the device when a snapshot creation is requested.
 
 [1]: https://linux.die.net/man/8/fsfreeze
