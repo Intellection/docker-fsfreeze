@@ -22,7 +22,6 @@ jobs:
           command: docker run $IMAGE_NAME fsfreeze --version
 
 workflows:
-  version: 2
   build_test:
     jobs:
       - test
